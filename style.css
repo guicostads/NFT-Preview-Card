@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Outfit&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    min-height: 490px;
+    max-width: 270px;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    min-height: 270px;
+    border-radius: 8px;
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.icon-view {
+    position: relative;
+}
+
+.icon-hover>img {
+    max-height: 100%;
+}
+
+.icon-view .icon-hover {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    display: none;
+    padding: 110px 111px;
+    border-radius: 8px;
+}
+
+.icon-view:hover .icon-hover {
+    display: block;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0.6;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+
+
+.image {
+    min-height: 270px;
+    border-radius: 8px;
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+
+}
+
+
+
+.title {
+    font-size: 20px;
+    margin-top: 22px;
+    margin-bottom: 18px;
+    color: white;
+    font-weight: 700;
+}
+
+.title a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%)
+}
+
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
+#description {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+}
+
+
+.icons-flex {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 7px;
+
+}
+
+#text-flex1 {
+    margin-left: 5px;
+    margin-right: 90px;
+    color: hsl(178, 100%, 50%);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#text-flex2 {
+    margin-left: 3px;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#footer-img {
+    margin-top: 10px;
+    max-width: 30px;
+    padding: 0px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+
+#footer-text {
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+}
+
+#footer-text a {
+    color: white;
+}
+
+#footer-text a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+#end-text {
+    margin-top: 20px;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+#end-text a {
+    color: hsl(178, 100%, 50%);
+    ;
+}
